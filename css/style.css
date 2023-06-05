@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Apparence */
+main,
+#calculatrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#calculatrice {
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    background-color: grey;
+    border: solid 4px black;
+    border-radius: 15px;
+    box-shadow: 4px 4px 2px black;
+    padding: 1em 3em;
+    gap: 2em;
+}
+
+#screen {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+}
+
+#lastOperation {
+    font-size: 0.8em;
+    color: grey;
+    width: 80%;
+    text-align: start;
+}
+
+#resultSpan {
+    width: 80%;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: end;
+}
+
+#buttons {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+#numBtns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 50%;
+}
+
+#numBtns {
+    align-items: center;
+    gap: 0.5em;
+}
+
+#numBtns button {
+    width: 30%;
+    height: 20%;
+    border-radius: 10px;
+}
+
+#operationsBtns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0;
+    width: 50%;
+}
+
+#operationsBtns button {
+    width: 40%;
+    height: 20%;
+    border-radius: 15px;
+}
