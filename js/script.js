@@ -251,25 +251,3 @@ operationBtns.forEach(opeBtn => {
         }
     })
 });
-
-
-
-const plantOfGarden = ["Trefle","Carotte","Courgette","Maïs"];
-
-function countPlants(plantsToCount) {
-    let nbPlant = 0;
-    plantsToCount.forEach(plant => {
-        nbPlant += 1 ;
-        console.log(plant);
-        console.log(nbPlant);
-    });
-}
-
-countPlants(plantOfGarden);
-let mot1 = "Gros";
-let mot2 = "Con";
-const message = 'Bonjour, ' + mot1 + mot2;
-
-console.log(message);
-
-console.log(null || "string");
